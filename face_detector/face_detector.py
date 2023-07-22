@@ -14,7 +14,7 @@ for(x,y,w,h) in face_coordinates:
     cv2.rectangle(img,(x,y),(x+w,y+h),(randrange(256),randrange(225),randrange(256),10))
 
 
-cv2.imshow('cleverprogrammer',img)
+cv2.imshow('abhyudaya',img)
 cv2.waitKey()
 '''
 
@@ -45,5 +45,5 @@ for(x,y,w,h) in face_coordinates:
 #(x,y,w,h)=face_coordinates[0]
     cv2.rectangle(img,(x,y),(x+w,y+h),(randrange(256),randrange(225),randrange(256),10))
 '''
-#cv2.imshow('cleverprogrammer',gray_scale_img)
+#cv2.imshow('abhyudaya',gray_scale_img)
 #cv2.waitKey()
