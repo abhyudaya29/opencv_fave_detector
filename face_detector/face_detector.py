@@ -1,3 +1,4 @@
+###Importing image from local system
 '''import cv2
 from cv2 import imread
 from random import randrange
@@ -17,7 +18,7 @@ for(x,y,w,h) in face_coordinates:
 cv2.imshow('abhyudaya',img)
 cv2.waitKey()
 '''
-
+###Taking live image 
 import cv2
 from cv2 import imread
 from random import randrange
